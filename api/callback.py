@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 CLIENT_KEY = "your_client_key_here"
 CLIENT_SECRET = "your_client_secret_here"
-REDIRECT_URI = "https://your-vercel-domain/api/callback"
+REDIRECT_URI = "https://tiktok-auth-liart.vercel.app/"
 
 @app.route("/api/callback")
 def callback():

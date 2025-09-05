@@ -2,8 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
-CLIENT_KEY = "your_client_key_here"
-REDIRECT_URI = "https://your-vercel-domain/api/callback"
+CLIENT_KEY = "sbawstaa06vtyabqgi"
+REDIRECT_URI = "https://tiktok-auth-liart.vercel.app/"
 
 @app.route("/")
 def home():
