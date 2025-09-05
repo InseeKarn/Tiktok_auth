@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-CLIENT_KEY = "your_client_key_here"
-CLIENT_SECRET = "your_client_secret_here"
+CLIENT_KEY = "sbawstaa06vtyabqgi"
+CLIENT_SECRET = "fKeFdYATz6Okyuvjv0aSipGE8RNyt5Rx"
 REDIRECT_URI = "https://tiktok-auth-liart.vercel.app/"
 
 @app.route("/api/callback")
